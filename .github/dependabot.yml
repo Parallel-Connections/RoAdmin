@@ -8,22 +8,13 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
-    labels:
-      - dependencies
-    versioning-strategy: increase
   - package-ecosystem: "cargo"
     directory: "/backend/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
-    labels:
-      - dependencies
-    versioning-strategy: increase
   - package-ecosystem: "npm"
     directory: "/app/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
-    labels:
-      - dependencies
-    versioning-strategy: increase
